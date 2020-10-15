@@ -3,23 +3,23 @@ from extensions import db
 
 
 class Role(Enum):
-    ATTENDEE = 'Attendee'
-    SPEAKER = 'Speaker'
-    COLLABORATOR = 'Collaborator'
-    ORGANIZER = 'Organizer'
+    ATTENDEE = 'ATTENDEE'
+    SPEAKER = 'SPEAKER'
+    COLLABORATOR = 'COLLABORATOR'
+    ORGANIZER = 'ORGANIZER'
 
 
 class Status(Enum):
-    DRAFT = 'Draft'
-    IN_REVIEW = 'In review'
-    APPROVED = 'Approved'
-    REJECTED = 'Rejected'
+    DRAFT = 'DRAFT'
+    IN_REVIEW = 'IN REVIEW'
+    APPROVED = 'APPROVED'
+    REJECTED = 'REJECTED'
 
 
 class Level(Enum):
-    BASIC = 'Basic'
-    INTERMEDIATE = 'Intermediate'
-    HARD = 'Hard'
+    BASIC = 'BASIC'
+    INTERMEDIATE = 'INTERMEDIATE'
+    HARD = 'HARD'
 
 
 class Person(db.Model):
