@@ -15,6 +15,7 @@ chrome_options.add_argument("--headless")
 chrome_options.add_argument('--no-proxy-server')
 chrome_options.add_argument("--proxy-server='direct://'")
 chrome_options.add_argument("--proxy-bypass-list=*")
+# chrome_options.add_argument("--no-sandbox")
 
 
 def before_all(context):
